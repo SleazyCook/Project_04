@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Permanent+Marker&display=swap');
+
+
+* {
+    color: lightseagreen;
+    background-color: #1e1e1e;
+}
+
+#title {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#author {
+    font-family: 'Berkshire Swash';
+}
