@@ -1,17 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
-
-* {
+body {
     color: lightseagreen;
-    background-color: #1e1e1e;
+    background-color: #281d13;
+    display: flex;
+    justify-content: center;
 }
 
-#title {
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+header {
+    border: 5px outset gold;
+    border-radius: 50%;
+    width: 300px;
     text-align: center;
+    font-family: 'Alfa Slab One';
+    color: gold;
+    -webkit-text-stroke: 1px navy;
+    -webkit-text-fill-color: gold;
+    outline-color: gold;
+    outline-style: outset;
+    background-image: linear-gradient(to right, rgb(1, 1, 119), navy, rgb(24, 0, 68));
+    margin:  auto;
+}
+
+/* #title {
+    f
+    text-align: center;
+} */
+
+#puppy-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: auto; */
+}
+
+#puppy {
+    text-align: center;
+    background: navy;
+    color: white;
+    border: 5px outset gold;
+    outline-color: gold;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    height: 420px;
+    width: 300px;
+}
+
+#puppy-name {
+    color: gold;
+}
+
+.puppy-portrait {
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 5px;
 }
 
 footer {
     text-align: center;
+    color: gold;
 }
 
 #author {

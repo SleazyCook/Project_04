@@ -25,21 +25,24 @@ const Homepage = () => {
     return (
 
         <div>
+            <header>
             <h1 id="title">Puppy Bowl XXII-IX</h1>
-            <div>
-                {
-                    puppyPlayers && puppyPlayers.length ? puppyPlayers.map((puppy, idx) => {
-                        console.log(puppy.name)
-                        return <div key ={idx}>
-                            <p>Name of Player: {puppy.name}</p>
+            </header>
+            <main>
+                <div id="puppy-container">
+                    {
+                        puppyPlayers && puppyPlayers.length ? puppyPlayers.map((puppy, idx) => {
+                            // console.log(puppy.name)
+                            return <div id="puppy" key ={idx}>
+                                <p>Player Name: <span id="puppy-name"><b>{puppy.name}</b></span></p>
                             
-                            <p>Player breed: {puppy.breed}</p>
-                            <img src={puppy.imageUrl}></img>
-                        </div>
-                    }) :  <p>No puppies to display. Try again later</p>
-                }
-            </div>
-                
+                                <p>{puppy.breed}</p>
+                                <img class="puppy-portrait" src={puppy.imageUrl}></img>
+                            </div>
+                        }) :  <p>No puppies to display. Try again later</p>
+                    }
+                </div>
+            </main>
             <div>
                 <footer>
                     <p>Developed by <span id="author">Drewford</span></p>
