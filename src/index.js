@@ -26,8 +26,11 @@ const Homepage = () => {
 
         <div>
             <header>
-            <h1 id="title">Puppy Bowl XXII-IX</h1>
+            <h1 class="title">Puppy
+            <div class="title" id="bowl-num">XXII-IX</div>
+            Bowl</h1>
             </header>
+
             <main>
                 <div id="puppy-container">
                     {
@@ -36,7 +39,7 @@ const Homepage = () => {
                             return <div id="puppy" key ={idx}>
                                 <p>Player Name: <span id="puppy-name"><b>{puppy.name}</b></span></p>
                             
-                                <p>{puppy.breed}</p>
+                                <p id="breed">{puppy.breed}</p>
                                 <img class="puppy-portrait" src={puppy.imageUrl}></img>
                             </div>
                         }) :  <p>No puppies to display. Try again later</p>

@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 body {
     color: lightseagreen;
-    background-color: #281d13;
+    background-image: url('https://cdn.optipic.io/site-2219/images/chinos/twillinobkbrwnpantslook_1.jpg');
     display: flex;
     justify-content: center;
 }
@@ -15,24 +16,31 @@ main {
 }
 
 header {
-    border: 5px outset gold;
+    border: 5px outset goldenrod;
     border-radius: 50%;
     width: 300px;
     text-align: center;
     font-family: 'Alfa Slab One';
-    color: gold;
-    -webkit-text-stroke: 1px navy;
-    -webkit-text-fill-color: gold;
     outline-color: gold;
     outline-style: outset;
     background-image: linear-gradient(to right, rgb(1, 1, 119), navy, rgb(24, 0, 68));
     margin:  auto;
+    margin-top: 1.5em;
 }
 
-/* #title {
-    f
-    text-align: center;
-} */
+h1 {
+    color: white;
+    -webkit-text-stroke: 1px navy;
+    -webkit-text-fill-color:  white;
+}
+
+#bowl-num {
+    font-size: 1.5em;
+    -webkit-text-stroke: 1px navy;
+    -webkit-text-fill-color: gold;
+    text-decoration: underline overline white;
+    margin-bottom: -.3em;
+}
 
 #puppy-container {
     margin-top: 20px;
@@ -45,17 +53,27 @@ header {
     text-align: center;
     background: navy;
     color: white;
-    border: 5px outset gold;
+    border: 5px outset goldenrod;
     outline-color: gold;
     border-radius: 10px;
     margin: auto;
     margin-top: 20px;
-    height: 420px;
+    height: 440px;
     width: 300px;
 }
 
 #puppy-name {
     color: gold;
+    font-family: 'Nanum Pen Script';
+    font-size:xx-large;
+    /* -webkit-text-stroke: 1px navy;
+    -webkit-text-fill-color: gold; */
+}
+
+#breed {
+    color: gold;
+    font-family: 'Nanum Pen Script';
+    font-size: large;
 }
 
 .puppy-portrait {
