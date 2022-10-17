@@ -22,13 +22,14 @@ const Homepage = () => {
     }, [] ) 
     
     return (
-
         <div>
             <header>
             <h1 class="title">Puppy
             <div class="title" id="bowl-num">XXII-IX</div>
             Bowl</h1>
             </header>
+            <Navbar />
+            
 
             <main>
                 <div id="puppy-container">
