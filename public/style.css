@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 body {
-    color: lightseagreen;
+    color: goldenrod;
     background-image: url('https://cdn.optipic.io/site-2219/images/chinos/twillinobkbrwnpantslook_1.jpg');
     display: flex;
     justify-content: center;
@@ -40,6 +40,23 @@ h1 {
     -webkit-text-fill-color: gold;
     text-decoration: underline overline white;
     margin-bottom: -.3em;
+}
+
+nav {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;;
+}
+
+.nav {
+    margin-top: 20px;
+    color: gold;
+}
+
+#disclaimer {
+    text-align: center;
+    font-size: xx-large;
 }
 
 #puppy-container {
