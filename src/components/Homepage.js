@@ -11,7 +11,7 @@ const Homepage = () => {
         <div>
             <header>
             <h1 className="title">Puppy
-            <div className="title" id="bowl-num">XXII-IX</div>
+            <div className="title" id="bowl-num">MMCCIX</div>
             Bowl</h1>
             </header>
             <Navbar class="nav"/>
