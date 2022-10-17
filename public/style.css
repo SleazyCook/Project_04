@@ -43,14 +43,13 @@ h1 {
 }
 
 nav {
-    margin-top: 40px;
+    margin: 40px 0 40px 0 ;
     display: flex;
     justify-content: center;
-    column-gap: 20px;;
+    column-gap: 20px;
 }
 
 .nav {
-    margin-top: 20px;
     color: gold;
 }
 
