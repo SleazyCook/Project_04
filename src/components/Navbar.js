@@ -7,9 +7,9 @@ const Navbar = () => {
     return (
         <nav>
             {/* STEP 2: USE THE LINK ELEMENT TO CREATE LINKS FOR YOUR NAVBAR, BEING SURE TO USE THE "TO" ATTRIBUTE TO REFER TO EACH PATHNAME, RESPECTIVELY */}
-            <Link to="settings">Settings</Link>
-            <Link to="about">About Us</Link>
-            <Link to="puppies">All Puppies</Link>
+            <Link to="puppies" class="nav">Puppy Players</Link>
+            <Link to="about" class="nav">About Us</Link>
+            {/* <Link to="settings" class="nav">Settings</Link> */}
         </nav>
     )
 };

@@ -14,7 +14,7 @@ const Homepage = () => {
             <div className="title" id="bowl-num">XXII-IX</div>
             Bowl</h1>
             </header>
-            <Navbar />
+            <Navbar class="nav"/>
             <Outlet />
             <div>
                 <footer>
