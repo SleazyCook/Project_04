@@ -53,6 +53,10 @@ nav {
     color: gold;
 }
 
+#home-img {
+    border: 5px solid gold;
+}
+
 #disclaimer {
     text-align: center;
     font-size: xx-large;

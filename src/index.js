@@ -29,6 +29,10 @@ const router = createBrowserRouter([
             {
                 path: "/puppies",
                 element: <AllPuppies />
+            },
+            {
+                path: "/home",
+                element: <Landing />
             }
         ]
     }
