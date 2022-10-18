@@ -8,6 +8,7 @@ import ErrorPage from "./components/ErrorPage";
 import Settings from "./components/Settings";
 import AllPuppies from "./components/AllPuppies";
 import AboutUs from "./components/AboutUs";
+import Landing from "./components/Landing";
 const appElement = document.getElementById("app")
 const root = createRoot(appElement)
 
