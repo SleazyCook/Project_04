@@ -26,7 +26,6 @@ const AllPuppies = () => {
                     // console.log(puppy.name)
                     return <div id="puppy" key ={idx}>
                         <p>Player Name: <span id="puppy-name"><b>{puppy.name}</b></span></p>
-                    
                         <p id="breed">{puppy.breed}</p>
                         <img className="puppy-portrait" src={puppy.imageUrl}></img>
                     </div>
