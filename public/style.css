@@ -57,6 +57,13 @@ nav {
     border: 5px solid gold;
 }
 
+@media all and (max-width: 800px) {
+    #home-img {
+        max-width: 450px;
+        max-height: 300px;
+    }
+}
+
 #disclaimer {
     text-align: center;
     font-size: xx-large;
